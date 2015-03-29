@@ -6,26 +6,26 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\service</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\CSJ\Desktop\lal</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/BLL.dll">
-      <publishTime>03/23/2015 11:05:57</publishTime>
+      <publishTime>03/16/2015 10:50:30</publishTime>
     </File>
     <File Include="bin/DAL.dll">
-      <publishTime>03/23/2015 09:21:38</publishTime>
+      <publishTime>03/16/2015 10:50:30</publishTime>
     </File>
     <File Include="bin/Model.dll">
-      <publishTime>03/23/2015 09:21:37</publishTime>
+      <publishTime>03/16/2015 10:50:30</publishTime>
     </File>
     <File Include="bin/TrackingDataService.dll">
-      <publishTime>03/23/2015 11:05:57</publishTime>
+      <publishTime>03/16/2015 11:06:22</publishTime>
     </File>
     <File Include="DataService.asmx">
       <publishTime>03/15/2015 16:04:54</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/23/2015 09:21:39</publishTime>
+      <publishTime>03/16/2015 11:06:24</publishTime>
     </File>
   </ItemGroup>
 </Project>

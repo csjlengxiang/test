@@ -1,7 +1,5 @@
-﻿//#define debug
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.IO.Ports;
 using System.Linq;
 using System.Text;
@@ -14,8 +12,6 @@ namespace BLL
     {
         #region 串口类
         public delegate void csjSerialPortDataReceived(byte[] readBuffer);
-        //SendService sendService = new SendService();
-        UdpService udpService;
         public class csjSerialPort : SerialPort
         {
             byte st = 0xfe;
@@ -209,14 +205,7 @@ namespace BLL
             }
             else
             {
-#if debug
-                udpService = new UdpService("127.0.0.1", "8000", "127.0.0.1", "9000");
-                udpService.Send("test");
-#else
-                udpService = new UdpService("182.168.100.48", "8000", "182.168.100.50", "9000");
-#endif
                 mySerialPort = new csjSerialPort(NotIntraneteceive, com);
-
             }
 
             mySerialPort.Open();
@@ -235,40 +224,9 @@ namespace BLL
         }
         private void NotIntraneteceive(byte[] data)
         {
-            //Console.WriteLine(data.Length.ToString() + " " + Encoding.UTF8.GetString(data));
+            Console.WriteLine(data.Length.ToString() + " " + Encoding.UTF8.GetString(data));
             //调用短信接口完事...
 
-            string str = Encoding.UTF8.GetString(data);
-            mess(str);
-            udpService.Send(str);
-
-            /*
-             *             string [] strs = str.Split();
-            string sjh = strs[0];
-            string sh = strs[1];
-            string ch = strs[2];
-            string tp = strs[3];
-            if (tp == "加锁")
-                sendService.sendOnce(sjh, sh + " 成功加在 " + ch + " 上");
-            else if (tp == "破锁")
-                sendService.sendOnce(sjh, ch + " 的锁 " + sh + " 损坏，请检查锁状态");
-             */
-        }
-
-        public static void mess(string data)
-        {
-            try
-            {
-                if (!Directory.Exists(@"c:\sendMessage"))
-                    Directory.CreateDirectory(@"c:\sendMessage");
-                StreamWriter sw = File.AppendText(@"c:\sendMessage\" + DateTime.Now.ToString("yyyyMMdd") + ".txt");
-                sw.WriteLine("【" + DateTime.Now.ToString() + "】" + data);
-                sw.Close();
-            }
-            catch (Exception ex)
-            {
-
-            }
         }
     }
 }

@@ -5,5 +5,6 @@ G:\Simulator\Model\obj\Debug\Model.dll
 G:\Simulator\Model\obj\Debug\Model.pdb
 C:\Users\CSJ\Desktop\Simulator\Model\bin\Debug\Model.dll
 C:\Users\CSJ\Desktop\Simulator\Model\bin\Debug\Model.pdb
+C:\Users\CSJ\Desktop\Simulator\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\Users\CSJ\Desktop\Simulator\Model\obj\Debug\Model.dll
 C:\Users\CSJ\Desktop\Simulator\Model\obj\Debug\Model.pdb

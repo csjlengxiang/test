@@ -12,10 +12,3 @@ C:\Users\CSJ\Desktop\Simulator\DAL\bin\Debug\Model.pdb
 C:\Users\CSJ\Desktop\Simulator\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\CSJ\Desktop\Simulator\DAL\obj\Debug\DAL.dll
 C:\Users\CSJ\Desktop\Simulator\DAL\obj\Debug\DAL.pdb
-C:\Users\Administrator\Desktop\Simulator\DAL\bin\Debug\DAL.dll
-C:\Users\Administrator\Desktop\Simulator\DAL\bin\Debug\DAL.pdb
-C:\Users\Administrator\Desktop\Simulator\DAL\bin\Debug\Model.dll
-C:\Users\Administrator\Desktop\Simulator\DAL\bin\Debug\Model.pdb
-C:\Users\Administrator\Desktop\Simulator\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Simulator\DAL\obj\Debug\DAL.dll
-C:\Users\Administrator\Desktop\Simulator\DAL\obj\Debug\DAL.pdb

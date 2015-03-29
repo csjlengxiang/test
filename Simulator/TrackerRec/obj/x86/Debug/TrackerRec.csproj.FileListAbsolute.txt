@@ -33,10 +33,3 @@ G:\Simulator\TrackerRec\bin\Debug\DAL.dll
 G:\Simulator\TrackerRec\bin\Debug\BLL.pdb
 G:\Simulator\TrackerRec\bin\Debug\Model.pdb
 G:\Simulator\TrackerRec\bin\Debug\DAL.pdb
-C:\Users\Administrator\Desktop\Simulator\TrackerRec\bin\Debug\TrackerRec.exe.config
-C:\Users\Administrator\Desktop\Simulator\TrackerRec\obj\x86\Debug\TrackerRec.exe
-C:\Users\Administrator\Desktop\Simulator\TrackerRec\obj\x86\Debug\TrackerRec.pdb
-C:\Users\Administrator\Desktop\Simulator\TrackerRec\obj\x86\Debug\TrackerRec.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Simulator\TrackerRec\obj\x86\Debug\TrackerRec.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Simulator\TrackerRec\obj\x86\Debug\TrackerRec.TrackerRec.resources
-C:\Users\Administrator\Desktop\Simulator\TrackerRec\obj\x86\Debug\TrackerRec.csproj.GenerateResource.Cache

@@ -14,6 +14,3 @@ G:\铁科院\csjSerialPort\csjSerialPortTestRec\bin\Debug\csjSerialPortTest.pdb
 G:\铁科院\csjSerialPort\csjSerialPortTestRec\bin\Debug\csjSerialPort.dll
 G:\铁科院\csjSerialPort\csjSerialPortTestRec\bin\Debug\csjSerialPort.pdb
 G:\铁科院\csjSerialPort\csjSerialPortTestRec\obj\Debug\csjSerialPortTestRec.csprojResolveAssemblyReference.cache
-C:\Users\CSJ\Desktop\Simulator\csjSerialPort\csjSerialPortTestRec\obj\Debug\csjSerialPortTestRec.csprojResolveAssemblyReference.cache
-C:\Users\CSJ\Desktop\Simulator\csjSerialPort\csjSerialPortTestRec\obj\Debug\csjSerialPortTest.exe
-C:\Users\CSJ\Desktop\Simulator\csjSerialPort\csjSerialPortTestRec\obj\Debug\csjSerialPortTest.pdb

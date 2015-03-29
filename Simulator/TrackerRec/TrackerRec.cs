@@ -26,7 +26,6 @@ namespace TrackerRec
                 {
                     rec = new UdpClient(Convert.ToInt32(Properties.Resources.本地端口.ToString()));
                     IPEndPoint from = null;
-                     
                     BackgroundService bService = new BackgroundService();
                     while (true)
                     {

@@ -1,7 +1,6 @@
 ﻿using BLL;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
@@ -24,38 +23,14 @@ namespace TrackingDataService
         [WebMethod]
         public string insert(string sbbh, string state, string tim, string jd, string wd)
         {
-            string str = sbbh + " " + changestate(state) + " " + tim + " " + jd + " " + wd;
+            string str = sbbh + " " + state + " " + tim + " " + jd + " " + wd;
             lock (loc)
             {
                 //cnt++;
                 //str = "cnt:" + cnt.ToString() + " " + str;
                 spService.Send(str);
-                mess(str);
             }
             return "ok";
-        }
-
-        public static void mess(string data)
-        {
-            try
-            {
-                if (!Directory.Exists(@"c:\GpsMessges"))
-                    Directory.CreateDirectory(@"c:\GpsMessges");
-                StreamWriter sw = File.AppendText(@"c:\GpsMessges\" + DateTime.Now.ToString("yyyyMMdd") + ".txt");
-                sw.WriteLine("【" + DateTime.Now.ToString() + "】" + data);
-                sw.Close();
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-        public static string changestate(string state)
-        {
-            if (state == "1") return "4";
-            if (state == "3") return "1";
-            if (state == "4") return "2";
-            return "9";
         }
     }
 }

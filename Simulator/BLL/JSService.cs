@@ -45,12 +45,9 @@ namespace BLL
 
             js = SelectBySBBH(gj.SBBH);
 
-            
+
             //////////////////////////////////////
-            if(js.SH!=null)
-                gj.SH = js.SH;
-            if (js.SH == null)
-                gj.SH = "null";
+            gj.SH = js.SH;
             bool suc = false;
             suc = gjService.Insert(gj);
             if (!suc) return false;

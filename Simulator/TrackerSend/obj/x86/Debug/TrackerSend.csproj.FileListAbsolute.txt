@@ -16,11 +16,3 @@ F:\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.exe
 F:\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.pdb
 C:\Users\CSJ\Desktop\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.exe
 C:\Users\CSJ\Desktop\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.pdb
-C:\Users\Administrator\Desktop\Simulator\TrackerSend\bin\Debug\TrackerSend.exe.config
-C:\Users\Administrator\Desktop\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.exe
-C:\Users\Administrator\Desktop\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.pdb
-C:\Users\Administrator\Desktop\Simulator\TrackerSend\bin\Debug\TrackerSend.exe
-C:\Users\Administrator\Desktop\Simulator\TrackerSend\bin\Debug\TrackerSend.pdb
-C:\Users\Administrator\Desktop\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.Traker.resources
-C:\Users\Administrator\Desktop\Simulator\TrackerSend\obj\x86\Debug\TrackerSend.csproj.GenerateResource.Cache

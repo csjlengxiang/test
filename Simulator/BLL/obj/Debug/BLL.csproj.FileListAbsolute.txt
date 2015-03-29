@@ -16,11 +16,3 @@ C:\Users\CSJ\Desktop\Simulator\BLL\bin\Debug\Model.dll
 C:\Users\CSJ\Desktop\Simulator\BLL\bin\Debug\DAL.pdb
 C:\Users\CSJ\Desktop\Simulator\BLL\bin\Debug\Model.pdb
 C:\Users\CSJ\Desktop\Simulator\BLL\obj\Debug\BLL.pdb
-C:\Users\Administrator\Desktop\Simulator\BLL\bin\Debug\BLL.dll
-C:\Users\Administrator\Desktop\Simulator\BLL\bin\Debug\BLL.pdb
-C:\Users\Administrator\Desktop\Simulator\BLL\bin\Debug\DAL.dll
-C:\Users\Administrator\Desktop\Simulator\BLL\bin\Debug\Model.dll
-C:\Users\Administrator\Desktop\Simulator\BLL\bin\Debug\DAL.pdb
-C:\Users\Administrator\Desktop\Simulator\BLL\bin\Debug\Model.pdb
-C:\Users\Administrator\Desktop\Simulator\BLL\obj\Debug\BLL.dll
-C:\Users\Administrator\Desktop\Simulator\BLL\obj\Debug\BLL.pdb

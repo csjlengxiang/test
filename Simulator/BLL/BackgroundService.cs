@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class BackgroundService
+    class BackgroundService
     {
         //后台服务开启后，单例模式
         GJService gjService = new GJService();
@@ -24,7 +24,7 @@ namespace BLL
 
         public bool Oper(string sp)
         {
-            //spService.Send(sp);
+            spService.Send(sp);
             bool suc = false;
 
             //解析数据
@@ -57,32 +57,24 @@ namespace BLL
             js.ZTBJ = "3";
             gj.DWZT = "2";
 #endif
-            Console.WriteLine("statu : " + js.ZTBJ);
-            //加锁
             if (js.ZTBJ == "1")
             {
                 //获得id
+
                 string sjh = czryService.GetSJHFromID(js.HQHYYID);
                 string sh = js.SH;
                 string ch = js.CH;
-
-                Console.WriteLine("加锁：" + sjh + " " + sh + " " + ch);
-
                 //给手机sjh，发送: sh已经加在ch上
                 //调用发出外网...再短信服务...
-                spService.Send(sjh + " " + sh + " " + ch + " 加锁");
+                spService.Send(sjh + "," + sh + "," + ch);
             }
             // 破锁，报警
             else if (preZTBJ != "3" && gj.DWZT == "2")
             {
-
                 string sjh = czryService.GetSJHFromID(js.HQHYYID);
                 string sh = js.SH;
                 string ch = js.CH;
 
-                Console.WriteLine("中途破锁：" + sjh + " " + sh + " " + ch);
-
-                spService.Send(sjh + " " + sh + " " + ch + " 破锁");
                 //string sjh1 = czryService.GetSJHFromID(js.CZID);
                 //string sjh2 = czryService.GetSJHFromID(js.HYZRID);
                 //string sh = js.SH;
@@ -106,7 +98,6 @@ namespace BLL
 #if debug
                 js.JSSJ = "2014/10/2 12:00:00";
 #endif
-                Console.WriteLine("拆锁破锁");
 
                 //取出轨迹点，组合成历史记录...
                 //select t.dwsj,t.jd,t.wd from FDS_GJB t where t.sh='00001' and t.dwsj > to_date('2014/10/2 12:00:00','yyyy/mm/dd hh24:mi:ss') order by t.dwsj
